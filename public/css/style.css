@@ -1,0 +1,236 @@
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0px;
+    background: linear-gradient(#FFDE75, rgb(191, 146, 10));
+  }
+  
+  header {
+    background-color: #396E00;
+    padding: 10px;
+  }
+  
+  .caja {
+    display: flex;
+    align-items: center;
+    background-color: #558C03;
+  }
+  
+  .caja li {
+    color: mintcream;
+    display: inline-block;
+    margin: 0 0 0 15px;
+    position: relative; /* Agrega posición relativa */
+  }
+  
+  .inicio a {
+    display: block;
+    width: 100%;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  
+  .inicio a:hover{
+    text-decoration: underline;
+    color: darkorange;
+    font-weight: bolder;
+  }
+
+  .inicio a.envios,
+  .inicio a.rastreos {
+    font-size: 16px;
+  }
+  
+  .despliegue {
+    position: relative;
+  }
+  
+  .despliegue-contenido {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #558C03;
+    padding: 0px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #396E00;
+    z-index: 1;
+  }
+  
+  .despliegue:hover .despliegue-contenido {
+    display: block;
+  }
+  
+  .despliegue-contenido a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: mintcream;
+    padding: 12px 16px;
+    text-align: left;
+  }
+  
+  .despliegue-contenido a:nth-child(1):hover,
+  .despliegue-contenido a:nth-child(2):hover {
+    color: darkorange;
+    background-color:#558C03;
+    font-weight: bold;
+  }
+  
+  
+footer{
+    text-align: center;
+    background: url(/img/bg2.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+.principal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+    background: #FEFEFE;
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    
+}
+.principal p {
+    margin: 0 0 1em;
+}
+.principal strong {
+    font-weight: bold;
+}
+.principal em {
+    font-style: italic;
+}
+
+    /*Desde aquí comienza el diseño del formulario y el mapa */
+    .iframe-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+
+    .informacion-de-contacto{
+        align-content: center;
+        width: 940px;
+        margin: 0 auto;
+    }
+    form {
+        margin: 40px auto; /* Alinea el formulario al centro horizontalmente */
+        padding: 20px;
+        max-width: 500px; /* Se ajusta el ancho máximo del formulario */
+        text-align: center; /* Alinea el contenido del formulario al centro */
+    }
+    
+    form label,
+    form legend {
+        display: block;
+        font-size: 20px;
+        margin: 0px 0 10px;
+    }
+    
+    .input-nombre, .input-mail, .input-tel{
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 100%;
+        cursor:pointer;
+    }
+    
+    .checkbox {
+        margin: 20px 0;
+        size: 5px;
+    }
+
+    input[type="checkbox" i] {
+        background-color: initial;
+        cursor: default;
+        appearance: auto;
+        box-sizing: border-box;
+        margin: 3px 3px 3px 4px;
+        padding: initial;
+        border: initial;
+        transform: scale(1.5)
+    }
+
+    .enviar {
+        width: 40%;
+        padding: 15px 5px;
+        font-size: 18px;
+        font-weight: bold;
+        background: darkorange;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        transition: 1s;
+        cursor: pointer;
+    }
+    
+    .enviar:hover {
+        color: white;
+        background: #5274D9;
+        
+    }
+    
+   input.tel::placeholder{
+    word-spacing: 5px;
+
+   }
+
+   .input-mail::content{
+    letter-spacing: none;
+    word-spacing: none;
+   }
+
+
+   .servicios{
+    padding: 2.5%;
+   }
+
+   .soluciones{
+    padding: 1.25%;
+   }
+
+   #padre {
+    display: table;
+    height:200px;
+    }
+    
+    #hijo {
+    display: table-cell;
+    vertical-align: middle;
+    }
+
+    .mapa {
+        padding: 3em 0;  
+    }
+    
+     .mapa p {
+        margin: 0 0 2em;
+        text-align: center;
+    }
+    
+    .mapa-contenido {
+        width: 940px;
+        margin: 0 auto;
+    }
+    
+    .iframe-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
