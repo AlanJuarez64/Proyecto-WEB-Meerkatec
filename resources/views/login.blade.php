@@ -19,7 +19,8 @@
         <section class="contenido-login">
         <h2>Ingreso de Usuario</h2>
         
-        <form id="form-login">
+        <form id="form-login" action="/login" method="POST">
+            @csrf
             <input type="text" id="token" placeholder="Ingrese su token" required>
             <input type="password" id="contrasenha" placeholder="Contraseña" required>
             

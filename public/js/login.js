@@ -7,11 +7,35 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     // Aquí se puede realizar la validación con el token ej: nombre de usuario y contraseña personalizado.
     // Por ejemplo, se puede comparar los valores ingresados con una lista de usuarios registrados.
   
-    if (usuario === "usuario" && password === "contraseña") {
-      alert("¡Inicio de sesión exitoso!");
-      // Aquí puedes redirigir al usuario a otra página o realizar otras acciones necesarias después del inicio de sesión exitoso
-    } else {
-      alert("Nombre de usuario o contraseña incorrectos, intente de nuevo.");
-    }
+
+    // Construir objeto con los datos del formulario
+    var formData = new FormData();
+    formData.append('Nombre_Usuario', usuario);
+    formData.append('Contrasenia', password);
+
+        // Realizar la solicitud AJAX
+        fetch('/login', {
+          method: 'POST',
+          body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+          if (data.success) {
+              // Inicio de sesión exitoso, redirigir a otra página o realizar acciones adicionales
+              alert("¡Inicio de sesión exitoso!");
+              alert(data.message);
+              window.location.href = '/dashboard';
+          } else {
+              // Inicio de sesión fallido, mostrar mensaje de error
+              alert("Nombre de usuario o contraseña incorrectos, intente de nuevo.");
+              alert(data.message);
+          }
+      })
+      .catch(error => {
+          // Error en la solicitud, mostrar mensaje de error
+          alert('Error en la solicitud');
+          console.error(error);
+      });
+
   });
   
