@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{asset('css/style-home.css')}}">
     <title>QuickHaul</title>
     <header>
+   
         <div class="caja">
          <a href="/"><img src="img/fuente_quick_haul.png" width="250px" length="250px"></a> 
           <img src="img/logoweb3.png" width="177px" length="250px">
@@ -24,7 +25,9 @@
               </li>
             </ul>
           </nav>
+          <input id="btnlogin" type="button" value="Iniciar Sesión" <a href="/login"> 
         </div>
+                 
       </header>    
 </head>
 

@@ -16,6 +16,34 @@ header {
   padding: 10px;
 }
 
+#btnlogin{
+  display: inline-block;
+  background-color:#D4D94A;
+  font-size: 15px;
+  border: 2px #5274D9;
+  border-radius: 3px;
+  font-family: 'Space Grotesk', 'sans-serif';
+  text-align: center;
+  transition: 1s;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.5s;
+  margin-top: 10px;
+  margin-right: 10px;
+  position: fixed;
+ 
+}
+
+#btnlogin:hover{
+background-color:#dfe52d ;
+}
+
+#btnlogin.fixed-corner {
+  position: fixed;
+  top: auto;
+  bottom: 10px;
+}
+
 .caja {
   display: flex;
   align-items: center;

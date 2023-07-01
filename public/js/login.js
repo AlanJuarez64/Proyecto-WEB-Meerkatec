@@ -1,3 +1,9 @@
+window.addEventListener('load', function() {
+    var btnLogin = document.getElementById('btnlogin');
+    btnLogin.classList.add('fixed-corner');
+  });
+/*Esto es un estilo CSS para el button del login en la visual de la página web de QuickHaul*/
+
 document.getElementById("login-form").addEventListener("submit", function(event) {
     event.preventDefault(); // Se evita que el formulario se envíe de forma predeterminada.
   
