@@ -30,13 +30,12 @@
 <body>
     <br>
     
-   
-<section class="mision-vision">
-    <br>
+ 
     <h1 class="titulo-principal">Acerca de nuestra empresa.</h1>
-
-    <div id="padre">
-        <div id="hijo"> <h2>¿Quiénes somos?</h2>         
+    <h2 class="subtitulo">¿Quiénes somos?</h2>  
+    <section class="mision-vision">
+        <div id="acerca-de"> 
+        
             <h3>Somos QUICKCARRY</h3>
             <p id="mision" ><em> <strong>Una empresa cuya misión es transformar la forma en que se mueven las mercancías, 
                     brindando soluciones de transporte rápido y eficiente que satisfagan las necesidades de nuestros clientes.</strong>
