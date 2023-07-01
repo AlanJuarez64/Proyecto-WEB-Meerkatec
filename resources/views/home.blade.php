@@ -25,7 +25,7 @@
               </li>
             </ul>
           </nav>
-          <input id="btnlogin" type="button" value="Iniciar Sesión" <a href="/login"> 
+          <a href="/login"><input id="btnlogin" type="button" value="Iniciar Sesión"></a> 
         </div>
                  
       </header>    

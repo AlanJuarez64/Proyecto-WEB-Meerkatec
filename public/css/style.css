@@ -30,19 +30,15 @@ header {
   transition: 0.5s;
   margin-top: 10px;
   margin-right: 10px;
-  position: fixed;
- 
+  position: absolute;
+  right:4px;
+  top: 4px;
 }
 
 #btnlogin:hover{
 background-color:#dfe52d ;
 }
 
-#btnlogin.fixed-corner {
-  position: fixed;
-  top: auto;
-  bottom: 10px;
-}
 
 .caja {
   display: flex;
