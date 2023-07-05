@@ -8,17 +8,44 @@
 body {
   font-family: 'Space Grotesk', 'sans-serif';
   margin: 0px;
-  background: linear-gradient(#FFDE75, rgb(191, 146, 10));
+  color: #212529;
 }
 
+
 header {
-  background-color: #396E00;
-  padding: 10px;
+  background-color: #91d845;
+  height: 80px;
+}
+
+header .caja {
+  height: 100%; /* Ajusta la altura de la caja del encabezado */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 70px;
+  width: auto;
+  position: absolute;
+  left: 60px;
+  top: 2;
+}
+
+header nav.inicio a {
+  color: rgb(255, 252, 245);
+  font-size: 20px; /* Ajusta el tamaño de fuente de los enlaces según tus preferencias */
+  
+}
+
+#btnlogin {
+  font-size: 14px; /* Ajusta el tamaño de fuente del botón según tus preferencias */
+  padding: 8px 12px; /* Ajusta el padding del botón según tus preferencias */
 }
 
 #btnlogin{
   display: inline-block;
-  background-color:#D4D94A;
+  background-color:#eaf03d;
   font-size: 15px;
   border: 2px #5274D9;
   border-radius: 3px;
@@ -28,7 +55,7 @@ header {
   cursor: pointer;
   padding: 10px;
   transition: 0.5s;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-right: 10px;
   position: absolute;
   right:4px;
@@ -36,14 +63,14 @@ header {
 }
 
 #btnlogin:hover{
-background-color:#dfe52d ;
+background-color:#d9fd39 ;
 }
 
 
 .caja {
   display: flex;
   align-items: center;
-  background-color: #558C03;
+  background-color: #83bd2c;
 }
 
 .caja li {
@@ -86,7 +113,7 @@ background-color:#dfe52d ;
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #558C03;
+  background-color: #7fcc0b;
   padding: 0px;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px #396E00;

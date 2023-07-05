@@ -7,7 +7,6 @@
     <header>
         <div class="caja">
           <a href="/"><img src="img/fuente_quick_haul.png" width="250px" length="250px"></a> 
-            <img src="img/logoweb3.png" width="177px" length="250px">
           <nav class="inicio">
             <ul>
               <li><a href="/">Página Principal</a></li>
@@ -22,6 +21,7 @@
               </li>
             </ul>
           </nav>
+          <a href="/login"> <input id="btnlogin" type="button" value="Iniciar Sesión"></a> 
         </div>
       </header>   
       
