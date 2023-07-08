@@ -9,6 +9,7 @@ body {
   font-family: 'Space Grotesk', 'sans-serif';
   margin: 0px;
   color: #212529;
+  background-image:("{{asset('/img/trucks.jpg')}}");
 }
 
 
@@ -18,7 +19,8 @@ header {
 }
 
 header .caja {
-  height: 100%; /* Ajusta la altura de la caja del encabezado */
+  height: 100%;
+  /* Ajusta la altura de la caja del encabezado */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,18 +36,21 @@ header img {
 
 header nav.inicio a {
   color: rgb(255, 252, 245);
-  font-size: 20px; /* Ajusta el tamaño de fuente de los enlaces según tus preferencias */
-  
+  font-size: 20px;
+  /* Ajusta el tamaño de fuente de los enlaces según tus preferencias */
+
 }
 
 #btnlogin {
-  font-size: 14px; /* Ajusta el tamaño de fuente del botón según tus preferencias */
-  padding: 8px 12px; /* Ajusta el padding del botón según tus preferencias */
+  font-size: 14px;
+  /* Ajusta el tamaño de fuente del botón según tus preferencias */
+  padding: 8px 12px;
+  /* Ajusta el padding del botón según tus preferencias */
 }
 
-#btnlogin{
+#btnlogin {
   display: inline-block;
-  background-color:#eaf03d;
+  background-color: #eaf03d;
   font-size: 15px;
   border: 2px #5274D9;
   border-radius: 3px;
@@ -58,12 +63,12 @@ header nav.inicio a {
   margin-top: 15px;
   margin-right: 10px;
   position: absolute;
-  right:4px;
+  right: 4px;
   top: 4px;
 }
 
-#btnlogin:hover{
-background-color:#d9fd39 ;
+#btnlogin:hover {
+  background-color: #d9fd39;
 }
 
 
@@ -89,7 +94,7 @@ background-color:#d9fd39 ;
   text-align: center;
   text-decoration: none;
   color: #000;
- 
+
   font-size: 24px;
 }
 
@@ -168,7 +173,7 @@ footer {
 
 }
 
-.subtitulo{
+.subtitulo {
   text-align: center;
 }
 
@@ -190,7 +195,8 @@ footer {
   padding: 1.25%;
 }
 
-#acerca-de h3, #acerca-de p {
+#acerca-de h3,
+#acerca-de p {
   text-align: center;
 }
 

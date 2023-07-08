@@ -1,4 +1,11 @@
     @media screen and (max-width: 480px) {
+        body {
+            font-family: 'Space Grotesk', 'sans-serif';
+            margin: 0px;
+            color: #212529;
+            background-image:('public/img/trucks.jpg');
+          }
+       
         h1{
          text-align: center;
         }
