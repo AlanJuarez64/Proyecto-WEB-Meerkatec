@@ -20,10 +20,10 @@
             <img src="/img/fuente_quick_haul.png" width="300px" length="177px"> 
           </div>
           <br>
-          
+          <br>
             @csrf
-            <h1>Ingreso de Usuario</h1>
-            <input type="text" id="token" placeholder="Ingrese su token" required>
+            
+            <input type="text" id="token" placeholder="Ingrese su usuario" required>
             <input type="password" id="contrasenha" placeholder="Contraseña" required>
             
             <div>
