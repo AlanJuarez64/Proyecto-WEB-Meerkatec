@@ -30,12 +30,10 @@
 <body>
   <br>
   <main class="informacion_de_contacto">
-    <section>
-      <h1 class="titulo-principal">¡Contáctanos!</h1>
-
-    </section>
-    <form>
-      <label for="nombreapellido">Nombre y Apellido</label>
+    
+    <form id="intro">
+    <h1 class="titulo-principal">¡Contáctanos!</h1>
+    <label for="nombreapellido">Nombre y Apellido</label>
       <input type="text" id="nombreapellido" class="input-nombre" required>
 
       <label for="Correo">Correo Electrónico</label>
@@ -53,7 +51,7 @@
     </form>
   </main>
 
-  <section class="mapa">
+  <section class="mapa" id="intro">
     <h3 class="titulo-principal">Nuestra ubicación</h3>
     <p> Nuestro establecimiento está ubicado el corazón de nuestra ciudad</p>
     <div class="mapa-contenido">

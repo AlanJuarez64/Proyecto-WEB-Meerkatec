@@ -29,14 +29,13 @@
 
 <body>
   <br>
-
-
+  <div id="acerca-de">
   <h1 class="titulo-principal">Acerca de nuestra empresa.</h1>
   <h2 class="subtitulo">¿Quiénes somos?</h2>
   <section class="mision-vision">
-    <div id="acerca-de">
+    
 
-      <h3>Somos QUICKCARRY</h3>
+    <h3>Somos QUICKCARRY</h3>
       <p id="mision"><em> <strong>Una empresa cuya misión es transformar la forma en que se mueven las mercancías,
             brindando soluciones de transporte rápido y eficiente que satisfagan las necesidades de nuestros clientes.</strong>
           <p>Nos esforzamos por ser reconocidos como un referente en el sector,
@@ -53,8 +52,9 @@
         En QuickCarry, nuestro compromiso es ser su socio confiable en el transporte, brindando resultados excepcionales y construyendo relaciones duraderas basadas en la confianza y la satisfacción mutua.</p></strong>
       </em></p>
     </div>
-    </div>
+    <br>
   </section>
+
   <footer>
     <img src="img/logopweb1.png" width="177" length="250" alt="Logo de QuickHaul">
     <p class="copyright"> &copy; Copyright QUICKCARRY - 2023</p>

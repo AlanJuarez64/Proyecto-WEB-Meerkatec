@@ -31,17 +31,14 @@
 
 <body>
   <br>
-  <h1 class="titulo-principal">Servicios que brindamos.</h1>
-
-
-  <section class="soluciones">
+  <section class="soluciones" id="intro">
     <h1> <strong>» Soluciones de Negocio</strong></h1>
     QuickHaul te ofrece una variedad de servicios a medida para empresas. Independientemente del tipo de negocio que usted desempeñe, podemos ayudarle a ser más eficiente y exitoso.
     Por servicios a medida para empresas envíenos un e-mail a quickcarry@contacto.com.uy detallando sus necesidades.
   </section>
 
   <section class="servicios">
-    <div>
+    <div id="intro">
       <h2>» <strong>Servicios logísticos</strong></h2>
 
       <h3>Distribución</h3>

@@ -9,7 +9,9 @@ body {
   font-family: 'Space Grotesk', 'sans-serif';
   margin: 0px;
   color: #212529;
-  background-image:url('/img/trucks.jpg');
+  background-image: url('/img/trucks.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 
@@ -148,7 +150,9 @@ header nav.inicio a {
 footer {
   text-align: center;
   background: url(/img/bg2.jpg);
-  padding: 5px;
+  padding: 50px 60px 40px;
+  bottom: 0;
+  width: auto;
   font-family: 'Times New Roman', 'Times', 'serif';
 }
 
@@ -192,7 +196,31 @@ footer {
 .copywriting,
 .mision-vision,
 .soluciones {
-  padding: 1.25%;
+  padding: 1.75%;
+}
+
+#intro .stanza {
+  margin-bottom: 20px;
+}
+
+#intro {
+  text-align: left;
+  background-color: rgba(40, 40, 40, 0.5);
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+#intro p, h1, h2, h3, h4{
+  padding: 5px;
+  margin: 15px;
+  text-shadow: #000;
+}
+
+#acerca-de{
+  text-align: left;
+  background-color: rgba(40, 40, 40, 0.5);
+  color: #FFFFFF;
+  border-radius: 5px;
 }
 
 #acerca-de h3,
