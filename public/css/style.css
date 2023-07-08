@@ -9,7 +9,7 @@ body {
   font-family: 'Space Grotesk', 'sans-serif';
   margin: 0px;
   color: #212529;
-  background-image:("{{asset('/img/trucks.jpg')}}");
+  background-image:url('/img/trucks.jpg');
 }
 
 
