@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QuickHaul - Login</title>
   <link rel="stylesheet" href="{{asset('/css/style-login.css')}}">
-  <script src="{{asset('/js/login.js')}}"></script>
+  <!-- <script src="{{asset('/js/login.js')}}"></script> -->
 
   <header>
 
@@ -25,8 +25,8 @@
       <br>
       @csrf
 
-      <input type="text" id="token" placeholder="Ingrese su usuario" required>
-      <input type="password" id="contrasenha" placeholder="Contraseña" required>
+      <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+      <input type="password" id="password" name="password" placeholder="Contraseña" required>
 
       <div>
         <button type="submit">Iniciar sesión</button>

@@ -1,8 +1,9 @@
 @font-face {
   font-family: 'Space Grotesk';
-  src: url('public\fonts\Space_Grotesk\static') format('truetype');
+  src: url('/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
   font-weight: auto;
   font-style: normal;
+
 }
 body {
   font-family: 'Space Grotesk';
@@ -34,7 +35,7 @@ header {
   position:relative;
 }
 
-input[type=text], input[type=password] {
+input[type=email], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;

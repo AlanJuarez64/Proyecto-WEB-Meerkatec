@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\AutenticacionController;
+use App\Http\Controllers\loginController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,6 +36,6 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::post('/login', [AutenticacionController::class, 'login'])->name('login');
+Route::post('/login', [loginController::class, 'login'])->name('login');
 
 //-------------------------------------------------------//
