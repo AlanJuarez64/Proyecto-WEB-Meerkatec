@@ -29,12 +29,13 @@
       <input type="password" id="password" name="password" placeholder="Contraseña" required>
 
       <div>
-        <button type="submit">Iniciar sesión</button>
+        <button id="btn-login" type="submit">Iniciar sesión</button>
+        <p class="advert" id="advert"></p>
       </div>
     </form>
   </section>
 
-
+<script src="/public/js/login.js"></script>
 </body>
 
 </html>

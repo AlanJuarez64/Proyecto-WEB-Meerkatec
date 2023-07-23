@@ -94,3 +94,11 @@ button {
 button:hover {
   background-color: #5274D9;
 }
+
+.adverts{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #B06AB3;
+  padding: top;
+}
