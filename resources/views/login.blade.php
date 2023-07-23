@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QuickHaul - Login</title>
   <link rel="stylesheet" href="{{asset('/css/style-login.css')}}">
-  <!-- <script src="{{asset('/js/login.js')}}"></script> -->
+  <script src="{{asset('/js/login.js')}}"></script> 
 
   <header>
 
@@ -35,7 +35,7 @@
     </form>
   </section>
 
-<script src="/public/js/login.js"></script>
+  
 </body>
 
 </html>
