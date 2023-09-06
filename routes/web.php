@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//Route::middleware(['auth'])->group(function () {
 Route::get('/', function () {
     return view('home');
 });
@@ -30,12 +30,14 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
-
+//});
 //------------------Login de Usuario---------------------//
 Route::get('/login', function () {
     return view('login');
 });
 
 Route::post('/login', [loginController::class, 'login'])->name('login');
+
+Route::post('/logout', [loginController::class, 'logout'])->name('logout');
 
 //-------------------------------------------------------//

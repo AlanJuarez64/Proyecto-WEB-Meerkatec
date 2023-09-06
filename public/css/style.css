@@ -43,6 +43,12 @@ header nav.inicio a {
 
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
 #btnlogin {
   font-size: 14px;
   /* Ajusta el tamaño de fuente del botón según tus preferencias */
@@ -69,10 +75,39 @@ header nav.inicio a {
   top: 4px;
 }
 
-#btnlogin:hover {
+#btnlogout:hover {
   background-color: #d9fd39;
 }
 
+#btnlogout {
+  font-size: 14px;
+  /* Ajusta el tamaño de fuente del botón según tus preferencias */
+  padding: 8px 12px;
+  /* Ajusta el padding del botón según tus preferencias */
+}
+
+#btnlogout {
+  display: inline-block;
+  background-color: #eaf03d;
+  font-size: 15px;
+  border: 2px #5274D9;
+  border-radius: 3px;
+  font-family: 'Space Grotesk', 'sans-serif';
+  text-align: center;
+  transition: 1s;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.5s;
+  margin-top: 15px;
+  margin-right: 10px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+
+#btnlogout:hover {
+  background-color: #d9fd39;
+}
 
 .caja {
   display: flex;

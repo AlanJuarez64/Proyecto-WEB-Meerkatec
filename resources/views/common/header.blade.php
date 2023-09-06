@@ -21,8 +21,16 @@
                 </li>
             </ul>
             </nav>
-        <a href="/login"> <input id="btnlogin" type="button" value="Iniciar Sesión"></a>
+
+            <div class="header-right">
+                @if(session('api_token'))
+                    <form method="POST" action="/logout">
+                    @csrf
+                    <button id="btnlogout" type="submit">Cerrar Sesión</button>
+                    </form>
+                @else
+                    <a href="/login"> <input id="btnlogin" type="button" value="Iniciar Sesión"></a>
+                @endif
+            </div>
         </div>
     </header>
-    
-</head>
