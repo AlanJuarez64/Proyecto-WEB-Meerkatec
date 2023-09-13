@@ -11,7 +11,8 @@ body {
   color: #212529;
   background-image: url('/img/trucks.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size:cover;
+  background-position: center;
 }
 
 
