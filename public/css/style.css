@@ -11,9 +11,48 @@ body {
   color: #212529;
   background-image: url('/img/trucks.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+}
+#intro{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
+
+
+.img-quickhaul{
+  padding-left: 100px;
+  padding-right: 100px;
+  max-width: 20%;
+}
+
+a.btn-sabermas{
+  color: #000;
+}
+
+.btn-sabermas{
+  padding: 8px 12px;
+  background-color: #eaf03d;
+  border: 20px;
+  border-radius: 50px;
+}
+
+.stanza{
+  padding-right: 100px;
+  padding-left: 100px;
+  display:flex;
+  align-items: center;
+}
+
+.img-left{
+  max-width: 30%;
+}
+
+.img-right{
+  max-width: 30%;
+}
 
 header {
   background-color: #91d845;
@@ -22,7 +61,6 @@ header {
 
 header .caja {
   height: 100%;
-  /* Ajusta la altura de la caja del encabezado */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,6 +112,7 @@ header nav.inicio a {
   right: 4px;
   top: 4px;
 }
+
 
 #btnlogout:hover {
   background-color: #d9fd39;
