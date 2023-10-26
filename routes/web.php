@@ -30,6 +30,14 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
+Route::get('/rastreos', function(){
+    return view('rastreos');
+});
+
+Route::get('/envios', function(){
+    return view('envios');
+});
+
 //});
 //------------------Login de Usuario---------------------//
 Route::get('/login', function () {
