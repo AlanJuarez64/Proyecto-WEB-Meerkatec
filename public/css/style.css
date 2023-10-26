@@ -38,6 +38,24 @@ a.btn-sabermas{
   border: 20px;
   border-radius: 50px;
 }
+.btn-sabermas:hover{
+  background-color: #ffd727;
+}
+
+a.btn-servicios{
+  color: #000;
+}
+
+.btn-servicios{
+  padding: 8px 12px;
+  background-color: #eaf03d;
+  border: 20px;
+  border-radius: 50px;
+}
+
+.btn-servicios:hover{
+  background-color:#ffd727 ;
+}
 
 .stanza{
   padding-right: 100px;
@@ -48,10 +66,21 @@ a.btn-sabermas{
 
 .img-left{
   max-width: 30%;
+  border: 20px;
+  border-radius: 20px;
+}
+
+.img-left:hover{
+  filter: blur(2px);
+}
+.img-right:hover{
+  filter: blur(2px);
 }
 
 .img-right{
   max-width: 30%;
+  border: 20px;
+  border-radius: 20px;
 }
 
 header {
@@ -77,7 +106,6 @@ header img {
 header nav.inicio a {
   color: rgb(255, 252, 245);
   font-size: 20px;
-  /* Ajusta el tamaño de fuente de los enlaces según tus preferencias */
 
 }
 
@@ -89,9 +117,7 @@ header nav.inicio a {
 
 #btnlogin {
   font-size: 14px;
-  /* Ajusta el tamaño de fuente del botón según tus preferencias */
   padding: 8px 12px;
-  /* Ajusta el padding del botón según tus preferencias */
 }
 
 #btnlogin {
@@ -120,9 +146,7 @@ header nav.inicio a {
 
 #btnlogout {
   font-size: 14px;
-  /* Ajusta el tamaño de fuente del botón según tus preferencias */
   padding: 8px 12px;
-  /* Ajusta el padding del botón según tus preferencias */
 }
 
 #btnlogout {
@@ -159,7 +183,6 @@ header nav.inicio a {
   display: inline-block;
   margin: 0 0 0 15px;
   position: relative;
-  /* Agrega posición relativa */
 }
 
 .inicio a {
@@ -422,4 +445,12 @@ input.tel::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.buscar-id{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 100%;
+  cursor: pointer;
 }
