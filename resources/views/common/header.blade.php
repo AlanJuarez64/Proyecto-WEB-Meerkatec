@@ -3,6 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{asset('css/style.css')}}">
+  <link rel="website icon" href="/img/logopweb1.png">
   <title>QuickHaul</title>
     <header>
         <div class="caja">
@@ -13,10 +14,10 @@
                 <li><a href="/acerca-de-nosotros">Acerca de Nosotros</a></li>
                 <li><a href="/contacto">Contacto</a></li>
                 <li class="despliegue">
-                <a href="/servicios">Servicios</a>
+                <a href="/servicios">Servicios▾</a>
                 <div class="despliegue-contenido">
-                    <a href="" class="envios">Envios</a>
-                    <a href="" class="rastreos">Rastreos</a>
+                    <a href="/envios" class="confirmar-envio">Envios</a>
+                    <a href="/rastreos" class="Rastreos">Rastreos</a>
                 </div>
                 </li>
             </ul>
