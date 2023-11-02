@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EnviosController;
 use App\Http\Controllers\loginController;
 use Illuminate\Support\Facades\Route;
 
@@ -38,6 +39,7 @@ Route::get('/envios', function(){
     return view('envios');
 });
 
+Route::post('/envios', [EnviosController::class, 'EnviarCorreo']);
 //});
 //------------------Login de Usuario---------------------//
 Route::get('/login', function () {
