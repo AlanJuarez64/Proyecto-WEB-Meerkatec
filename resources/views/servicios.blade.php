@@ -15,7 +15,7 @@
       <div>
       <h3>Confirmación de Entrega</h3>
       <p>Si usted lo desea podemos confirmar al instante de la entrega vía e-mail o por teléfono.
-      <br><br><btn class="btn-servicios"><a href="/confirmar-entrega"><b>Confirmar entrega</b><btn></a></p>
+      <br><br><btn class="btn-servicios"><a href="/envios"><b>Confirmar entrega</b><btn></a></p>
       </div>
       <img class="img-right" src="/img/img_envios.jpg">
     </div>

@@ -4,6 +4,7 @@
   <main class="informacion_de_contacto">
     
     <form id="intro">
+    @csrf
     <h1 class="titulo-principal">¡Contáctanos!</h1>
     <label for="nombreapellido">Nombre y Apellido</label>
       <input type="text" id="nombreapellido" class="input-nombre" required>
