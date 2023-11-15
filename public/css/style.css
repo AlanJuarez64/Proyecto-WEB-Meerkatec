@@ -454,3 +454,94 @@ input.tel::placeholder {
   width: 100%;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  header .caja {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header img {
+    left: 10px;
+  }
+
+
+
+  .header-right {
+    margin-right: 0;
+  }
+
+  #btnlogin,
+  #btnlogout {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .caja {
+    height:80%;
+    flex-direction: column;
+  }
+
+  .caja li {
+    margin: 10px 0;
+  }
+
+  header {
+    height: auto;
+  }
+
+  header .caja {
+    padding: 10px;
+  }
+
+  #intro {
+    padding: 20px;
+  }
+
+  .img-quickhaul {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .stanza,
+  .img-left,
+  .img-right,
+  .iframe-container,
+  .informacion-de-contacto,
+  form,
+  .mapa,
+  .mapa-contenido,
+  .buscar-id {
+    padding: 20px;
+  }
+
+  .despliegue:hover .despliegue-contenido {
+    display: none; /* Ocultar el menú desplegable por defecto en pantallas más pequeñas */
+  }
+
+  .despliegue:hover .despliegue-contenido {
+    position: static; /* Mantener el menú desplegable visible cuando se desplaza sobre el padre */
+    display: block;
+    background-color: #88d514;
+    padding: 0px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #396E00;
+    z-index: 1;
+  }
+  .stanza {
+    display: flex;
+    flex-direction: column-reverse; /* Invierte el orden de los elementos en pantallas más pequeñas */
+    align-items: center;
+  }
+  
+  .img-left,
+  .img-right {
+    max-width: 100%; /* Hace que las imágenes ocupen el 100% del ancho en pantallas más pequeñas */
+    border: 10px; /* Ajusta el tamaño del borde */
+    border-radius: 10px; /* Ajusta el radio del borde */
+    margin-bottom: 20px; /* Agrega espacio entre las imágenes y el contenido siguiente */
+  }
+}
