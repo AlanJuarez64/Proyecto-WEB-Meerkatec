@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\EnviosController;
 use App\Http\Controllers\loginController;
+use App\Http\Controllers\RastreosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,12 +35,14 @@ Route::get('/servicios', function () {
 Route::get('/rastreos', function(){
     return view('rastreos');
 });
+Route::post('/rastrear', [RastreosController::class, 'RastrearArticulo'])->name('rastrear.articulo');
 
 Route::get('/envios', function(){
     return view('envios');
 });
 
 Route::post('/envios', [EnviosController::class, 'EnviarCorreo']);
+
 //});
 //------------------Login de Usuario---------------------//
 Route::get('/login', function () {

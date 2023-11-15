@@ -20,7 +20,7 @@ class CorreoMailable extends Mailable
         $this->id = $id;
     }
 
-    public function build()
+    public function build() 
     {
         return $this->view('envios', [
             'correo' => $this->correo,
