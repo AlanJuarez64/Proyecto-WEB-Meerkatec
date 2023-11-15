@@ -28,7 +28,8 @@
     <h3 class="titulo-principal">Nuestra ubicación</h3>
     <p> Nuestro establecimiento está ubicado el corazón de nuestra ciudad</p>
     <div class="mapa-contenido">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5710.632911729931!2d9.203665316004306!3d44.30344446292724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d49fc6fc6f4c05%3A0xefd9aab5f00f01db!2s16034%20Portofino%2C%20G%C3%A9nova%2C%20Italia!5e0!3m2!1ses-419!2suy!4v1687406368724!5m2!1ses-419!2suy" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.016526403824!2d-56.208412888097065!3d-34.906034772734245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f7f80d0824b45%3A0xb9c1ce96f3a46d5c!2s25%20de%20Mayo%20500%2C%2011000%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1700005673389!5m2!1ses!2suy"
+       width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
   @include("common/footer")
