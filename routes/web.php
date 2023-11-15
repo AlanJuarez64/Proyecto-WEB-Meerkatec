@@ -40,6 +40,7 @@ Route::get('/envios', function(){
 });
 
 Route::post('/envios', [EnviosController::class, 'EnviarCorreo']);
+
 //});
 //------------------Login de Usuario---------------------//
 Route::get('/login', function () {
